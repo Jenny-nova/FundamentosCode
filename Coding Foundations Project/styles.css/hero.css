@@ -1,0 +1,87 @@
+.hero-section {
+    background: linear-gradient(to right, #444, #222);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-section > .first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    margin-left: auto;
+}
+
+.hero-section > .first-column > .top-heading {
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    width: 700px;
+    height: 200px;
+}
+
+.hero-section > .first-column > .top-heading i {
+    color: orange;
+}
+
+.hero-section > .first-column > .bottom-heading {
+    font-size: 30px;
+    color: grey;
+    width: 700px;
+}
+
+.hero-section > .first-column > .buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.hero-section > .first-column > .buttons > .btn-left {
+    background-color: rgba(0, 255, 110, 0.886);
+    font-size: 30px;
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.hero-section > .first-column > .buttons > .btn-right {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 40px;
+}
+
+.hero-section >.project-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 40px;
+    position: relative;
+}
+
+.hero-section >.project-window p {
+    position: absolute;
+    top: 0px;
+    right: 280px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.hero-section > .project-window img {
+    width: 500px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.hero-section > .project-window span {
+    color: #6abfe3 ;
+    font-weight: 700;
+}
